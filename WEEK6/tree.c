@@ -10,7 +10,7 @@ bool search (node *tree)
 {
     if (tree == NULL)
     {
-        return 1;
+        return false;
     }
     else if (node *tree > 50)
     {
@@ -22,6 +22,6 @@ bool search (node *tree)
     }
     else
     {
-        return 0;
+        return true;
     }
 }
